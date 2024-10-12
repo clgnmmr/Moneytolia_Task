@@ -14,6 +14,7 @@ Buildable Tetsler:
 
 Our project is tested using the Rest assured library in the cucumber framework using java programming language. selenium is used where necessary.
 
+![image](https://github.com/user-attachments/assets/1ec6d231-0dee-4c74-88ef-debede00e2ee)
 
 Use tools:
 1. Java
