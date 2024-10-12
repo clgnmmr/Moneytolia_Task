@@ -12,5 +12,10 @@ public class ReusableMethods {
         return Driver.getDriver().findElement(By.xpath("//div[@class='shop-menu pull-right']/ul/li/a[text()='"+button+"']"));
     }
 
+    public static WebElement payPageFields(String field){
+
+        return Driver.getDriver().findElement(By.xpath("//input[@name='"+field+"']"));
+    }
+
 
 }

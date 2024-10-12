@@ -1,4 +1,4 @@
-Feature: Automation Exercise
+Feature: Automation Exercise 12
 
   @TC_001_products
   Scenario: Add products to cart
