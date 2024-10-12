@@ -27,4 +27,26 @@ public class ViewPage {
 
     @FindBy(xpath = "//td/button")
     public List<WebElement> quantityList;
+
+    @FindBy(xpath = "//a[@class='btn btn-default check_out']")
+    public WebElement continueProceed;
+
+    @FindBy(xpath = "//div[@class='col-xs-12 col-sm-6'][1]/ul/li")
+    public List<WebElement> deliveryList;
+
+    @FindBy(xpath = "//div[@class='col-xs-12 col-sm-6'][2]/ul/li")
+    public List<WebElement> billingList;
+
+    @FindBy(xpath = "//textarea[@name='message']")
+    public WebElement textareaBox;
+
+    @FindBy(xpath = "//a[@class='btn btn-default check_out']")
+    public WebElement placeOrderButton;
+
+    @FindBy(xpath = "//button[@id='submit']")
+    public WebElement paymentButton;
+
+    @FindBy(xpath = "//*[text()='Your order has been placed successfully']")
+    public WebElement successMessage;
+
 }

@@ -7,7 +7,7 @@ import org.openqa.selenium.TakesScreenshot;
 import utilities.Driver;
 
 public class Hooks {
-    public static String apiTest;
+    public static String apiTest="OFF";
 
     @After
     public void tearDown(Scenario scenario) throws Exception {
